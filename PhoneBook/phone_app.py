@@ -184,7 +184,6 @@ def choice_runner(c):
         print("Exiting...")
     else:
         print("Invalid choice!")
-
 while True:
     choice = laucher()
     if choice==0:
@@ -192,7 +191,7 @@ while True:
         clear_screen()
         continue
     choice_runner(choice)
-    if choice==2:
+    if choice==2 or choice==3:
         print("Press any key to continue...")
         input()
         clear_screen()
